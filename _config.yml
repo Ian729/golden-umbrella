@@ -39,8 +39,8 @@ baseurl: "/silver-umbrella" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-    github: ian729
-    instagram: ian_729
+    - { platform: github,  user_url: "https://github.com/ian729" }
+    - { platform: twitter, user_url: "https://twitter.com/ian_729" }
 
 # Set this to true to get LaTeX math equation support
 use_math: 
